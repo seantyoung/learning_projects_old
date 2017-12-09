@@ -35,6 +35,8 @@ def RollAgain(): # determines if player wants to roll again, then asks which dic
     while reroll == 'not yet': # ensures a correct response has been received
         ans = input("Would you like to roll again?(y or n) ").lower()
         if ans == "n":
+        ans = input("Would you like to roll again? (y or n)").lower()
+        if ans == "n":
             reroll = False
             new_dice = ['done_rolling'] # used to bypass NextRoll
         elif ans == "y": # asks which dice to replace, then subtracts 1 to convert to zero based lists
