@@ -3,8 +3,3 @@ This is a dated folder with learning projects. Documents dated 2019 and newer sh
 
 This is an area to learn python
 I create basic files and store them here
-
-SQLite3
-Databases
-
-Blackjack game
